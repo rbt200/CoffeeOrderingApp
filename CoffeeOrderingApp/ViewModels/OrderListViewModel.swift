@@ -9,13 +9,14 @@ class OrderListViewModel: ObservableObject {
     }
     
     func fetchOrders() {
+        
         Webservice().getAllOrders { orders in
-            
             if let orders = orders {
                 self.orders = orders.map(OrderViewModel.init)
             }
             
         }
+        
     }
     
 }
@@ -43,7 +44,6 @@ class OrderViewModel {
     }
     
     var total: Double {
-        self.order.total
+        return self.order.total
     }
-    
 }

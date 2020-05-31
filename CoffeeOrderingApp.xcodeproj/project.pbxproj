@@ -18,6 +18,7 @@
 		E626D3DA24686F530008B8AC /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3D924686F530008B8AC /* Coffee.swift */; };
 		E626D3DD2468709B0008B8AC /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3DC2468709B0008B8AC /* Webservice.swift */; };
 		E626D3E0246C8CD40008B8AC /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3DF246C8CD40008B8AC /* OrderListViewModel.swift */; };
+		E626D3E3247598A90008B8AC /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3E2247598A90008B8AC /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E626D3D924686F530008B8AC /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		E626D3DC2468709B0008B8AC /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		E626D3DF246C8CD40008B8AC /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		E626D3E2247598A90008B8AC /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +68,12 @@
 		E626D3BE24686AC70008B8AC /* CoffeeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
-				E626D3DE246C8CB80008B8AC /* ViewModel */,
+				E626D3E1247598690008B8AC /* Views */,
+				E626D3DE246C8CB80008B8AC /* ViewModels */,
 				E626D3DB246870810008B8AC /* Services */,
 				E626D3D624686EE80008B8AC /* Models */,
 				E626D3BF24686AC70008B8AC /* AppDelegate.swift */,
 				E626D3C124686AC70008B8AC /* SceneDelegate.swift */,
-				E626D3C624686AC70008B8AC /* ContentView.swift */,
 				E626D3C824686ACB0008B8AC /* Assets.xcassets */,
 				E626D3CD24686ACB0008B8AC /* LaunchScreen.storyboard */,
 				E626D3D024686ACB0008B8AC /* Info.plist */,
@@ -106,12 +108,21 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		E626D3DE246C8CB80008B8AC /* ViewModel */ = {
+		E626D3DE246C8CB80008B8AC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				E626D3DF246C8CD40008B8AC /* OrderListViewModel.swift */,
 			);
-			path = ViewModel;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E626D3E1247598690008B8AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E626D3C624686AC70008B8AC /* ContentView.swift */,
+				E626D3E2247598A90008B8AC /* OrderListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 			files = (
 				E626D3C524686AC70008B8AC /* CoffeeOrderingApp.xcdatamodeld in Sources */,
 				E626D3DD2468709B0008B8AC /* Webservice.swift in Sources */,
+				E626D3E3247598A90008B8AC /* OrderListView.swift in Sources */,
 				E626D3C024686AC70008B8AC /* AppDelegate.swift in Sources */,
 				E626D3D824686EFB0008B8AC /* Order.swift in Sources */,
 				E626D3C724686AC70008B8AC /* ContentView.swift in Sources */,
