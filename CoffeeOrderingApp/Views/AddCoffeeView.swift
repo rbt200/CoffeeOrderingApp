@@ -36,7 +36,8 @@ struct AddCoffeeView: View {
                     }
                     
                     
-                    Section(header: Text("SELECT COFFEE").font(.body), footer: Text("Total")) {
+                    Section(header: Text("SELECT COFFEE").font(.body), footer:
+                    OrderTotalView(total: self.addCoffeeOrderVM.total)) {
                         Picker("", selection: self.$addCoffeeOrderVM.size) {
                             Text("Small").tag("Small")
                             
@@ -50,7 +51,7 @@ struct AddCoffeeView: View {
                 
                 HStack {
                     Button("Place order") {
-                        
+                        self.addCoffeeOrderVM.placeOrder()
                     }
                     
                 }.padding(EdgeInsets(top: 12, leading: 100, bottom: 12, trailing: 100))

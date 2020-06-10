@@ -23,6 +23,7 @@
 		E626D3E7248971F90008B8AC /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3E6248971F90008B8AC /* AddCoffeeOrderViewModel.swift */; };
 		E626D3E92489734A0008B8AC /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3E82489734A0008B8AC /* CoffeeViewModel.swift */; };
 		E626D3EB248D4EEC0008B8AC /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3EA248D4EEC0008B8AC /* AddCoffeeView.swift */; };
+		E626D3ED24916C410008B8AC /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D3EC24916C410008B8AC /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E626D3E6248971F90008B8AC /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		E626D3E82489734A0008B8AC /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 		E626D3EA248D4EEC0008B8AC /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
+		E626D3EC24916C410008B8AC /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				E626D3C624686AC70008B8AC /* ContentView.swift */,
 				E626D3E2247598A90008B8AC /* OrderListView.swift */,
 				E626D3EA248D4EEC0008B8AC /* AddCoffeeView.swift */,
+				E626D3EC24916C410008B8AC /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				E626D3C724686AC70008B8AC /* ContentView.swift in Sources */,
 				E626D3C224686AC70008B8AC /* SceneDelegate.swift in Sources */,
 				E626D3DA24686F530008B8AC /* Coffee.swift in Sources */,
+				E626D3ED24916C410008B8AC /* OrderTotalView.swift in Sources */,
 				E626D3E0246C8CD40008B8AC /* OrderListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
